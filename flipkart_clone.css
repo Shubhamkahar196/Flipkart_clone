@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.navbar{
+    height: 70px;
+    background-color: #2874f0;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 56px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png");
+    background-size: cover;
+    height: 20px;
+    width: 80px;
+
+}
+.logo-small a {
+    margin:  0px 2px 0px 0px;
+    color: #ffe500;;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.nav-search {
+    display: flex;
+    background-color: palegreen;
+    justify-content: space-between;
+    height: 40px; 
+    width: 681px;
+}
+
+.input-search{
+    width: 100%;
+    font-size: 1rem;
+    background-color: white;
+}
+
+.search-icon {
+    height: 40px; 
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: palegreen;
+    cursor: pointer;
+}
+
+/* border */
+
+
+.border {
+    border: 8px solid;
+    border-image: repeating-linear-gradient(135deg,#F8CA00 0 10px,#E97F02 0 20px,#BD1550 0 30px) 8;
+    -webkit-mask:  conic-gradient(from 180deg at top 8px right 8px, #0000 90deg,#000 0)
+       var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+      conic-gradient(at bottom 8px left  8px,  #0000 90deg,#000 0)
+       0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+      linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: .3s, -webkit-mask-position .3s .3s;
+  }
+  .border:hover {
+    --_i: 100%;
+    color: #CC333F;
+    transition: .3s, -webkit-mask-size .3s .3s;
+  }
+  
+
+
+/* box-3 */
+
+.box-3{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.box-3 i{
+    font-size: 30px;
+}
+
+/* box-4 */
+.box-4{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.box-4 i{
+    font-size: 20px;
+}
+
+/* box-5 */
+.box-5{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.box-5 i{
+    font-size: 20px;
+}
+
+/* box-6 */
+.box-6{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+/* panel */
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: paleturquoise;
+    
+    height: 140px;
+    width: 100%;
+    
+    
+}
+
+.panel-item{
+    height: 145px;
+    width: 100%;
+    background-color: white;
+   
+    
+}
+
+
+
+.item-img {
+   height: 75px;
+   width: 75px;
+   background-size: cover; 
+   margin-top: 2px;
+   margin-bottom: 2px;
+   
+
+}
+
+.item-content {
+    height: 100px;
+    width: 120px;
+    padding: 16px;
+     margin-left: 2px;
+    margin-right: 2px;
+}
+
+.item-content p{
+    color: black;
+    font-weight: 5px;
+}
+
+/* hero section */
+
+.hero-section{
+    height:267px;
+    background-size: cover;
+    background-color: purple;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* shop-section */
+.shop-section{
+    background-color: palegreen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.shop-item {
+    height: 200px;
+    width: 23%;
+    background-color: white;
+    background-size: cover;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.shop-content {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.shop-img{
+    height: 115px;
+    background-size: cover;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+.heading {
+    height: 72px;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.heading h1 {
+    height: 24px;
+    color: #212121;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* Footer */
+.footer-panel {
+    display: flex;
+    background-color:  #232f3E ;
+    justify-content: space-evenly;
+    height: 300px;
+
+}
+
+
+
+.footer-item {
+    color: #d1bcbc;
+    font-weight: 40;
+}
+
+.footer-item h3{
+    color: #FFFFFF;
+}
+
+.foot-panel3{
+    background-color: #232f3E;
+    color: white;
+    border-top: 2px solid white;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo {
+    margin-top: 20px;
+    background-image: url("https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png");
+    background-size: cover;
+    height: 45px;
+    width: 132px;   
+}
+
+
+
+   
+    
+
+
+
