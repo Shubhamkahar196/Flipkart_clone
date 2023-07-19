@@ -23,6 +23,7 @@
 }
 
 .logo{
+/*    Flipkart image address    */
     background-image: url("https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png");
     background-size: cover;
     height: 20px;
@@ -252,6 +253,8 @@
 
 .footer-logo {
     margin-top: 20px;
+
+/*   Flipkart image address     */
     background-image: url("https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png");
     background-size: cover;
     height: 45px;
